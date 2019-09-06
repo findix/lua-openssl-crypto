@@ -219,11 +219,6 @@ int encrypt_bytes(char *passphrase, char *plaintext, char **p, size_t *size)
                     goto end;
                 }
             }
-            /*
-             * zero the complete buffer or the string passed from the command
-             * line.
-             */
-            OPENSSL_cleanse(str, str_len);
         }
         if (hiv != NULL)
         {

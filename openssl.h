@@ -1,5 +1,5 @@
-#ifndef OPENSSL_CRYPTO_H
-#define OPENSSL_CRYPTO_H
+#ifndef CRYPT_OPENSSL_H
+#define CRYPT_OPENSSL_H
 
 // #include <stdio.h>
 // #include <stdlib.h>
